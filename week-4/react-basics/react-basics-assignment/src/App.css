@@ -1,0 +1,57 @@
+.app-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: monospace;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  box-shadow: 10px 10px;
+  border-radius: 20px;
+}
+
+.todos{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.todo-item{
+  padding: 5px;
+  border: 2px solid black;
+  box-shadow: 5px 5px;
+  border-radius: 10px;
+}
+
+input{
+  font-family: monospace;
+  font-size: large;
+  min-width: 400px;
+  min-height: 50px;
+  border: 2px solid black;
+  box-shadow: 5px 5px;
+  border-radius: 10px;
+}
+
+button{
+  background-color: white;
+  font-family: monospace;
+  font-size: large;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid black;
+  box-shadow: 5px 5px;
+  border-radius: 10px;
+}
