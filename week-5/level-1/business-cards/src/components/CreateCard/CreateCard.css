@@ -1,0 +1,25 @@
+.create-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border: 2px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+
+input{
+    border: 0;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+button{
+    border: 0;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+}
